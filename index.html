@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d0b">
+  <meta name="description" content="Kumar Nirav, cybersecurity enthusiast and student. Explore security projects, skills, and ways to connect.">
+  <title>Kumar Nirav | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body class="booting">
+  <!-- Terminal-style loading screen -->
+  <div class="boot-screen" id="boot-screen" role="status" aria-live="polite" aria-label="Loading portfolio">
+    <div class="boot-window">
+      <div class="window-bar">
+        <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        <span class="window-title">nirav@portfolio: ~</span>
+        <span class="window-mark">TTY 01</span>
+      </div>
+      <div class="boot-content">
+        <div class="boot-brand"><span class="boot-cursor">▌</span> NIRAV<span class="boot-brand-muted">.SYS</span></div>
+        <p class="boot-subtitle">Personal security workspace // startup sequence</p>
+        <div class="boot-command"><span>nirav@portfolio</span>:<b>~</b>$ ./initialize_portfolio.sh</div>
+        <ul class="boot-log" id="boot-log"></ul>
+        <div class="boot-progress-track"><span id="boot-progress"></span></div>
+        <div class="boot-bottom"><span id="boot-status">INITIALIZING ENVIRONMENT</span><span id="boot-percent">0%</span></div>
+        <button class="skip-boot" id="skip-boot" type="button">[ skip boot ]</button>
+      </div>
+    </div>
+    <div class="boot-footnote">PUBLIC PROFILE // NO PRIVATE SYSTEMS ACCESSED</div>
+  </div>
+
+  <div class="site-shell" id="site-shell">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Kumar Nirav, home">KN<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hackathons">Hackathons &amp; CTFs</a></li>
+        <li><a href="#contact">Connect</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Hero: layered parallax scene -->
+      <header id="home" class="hero">
+        <div class="hero-scene" aria-hidden="true">
+          <div class="scene-grid parallax-layer" data-depth="0.10"></div>
+          <div class="scene-glow scene-glow-one parallax-layer" data-depth="0.20"></div>
+          <div class="scene-glow scene-glow-two parallax-layer" data-depth="0.32"></div>
+          <div class="scene-orbit orbit-one parallax-layer" data-depth="0.16"></div>
+          <div class="scene-orbit orbit-two parallax-layer" data-depth="0.25"></div>
+          <div class="scene-crosshair crosshair-one"></div>
+          <div class="scene-crosshair crosshair-two"></div>
+        </div>
+
+        <div class="hero-layout container">
+          <div class="hero-content">
+            <p class="eyebrow"><span class="prompt-mark">&gt;</span> CyberSecurity enthusiast &amp; student</p>
+            <p class="hero-kicker">HELLO, WORLD. I’M</p>
+            <h1>Kumar <span class="accent">Nirav</span><span class="title-cursor">_</span></h1>
+            <p class="tagline">Building practical cybersecurity skills through code, investigation, and hands-on security work.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn">Explore projects <span aria-hidden="true">↘</span></a>
+              <a href="#about" class="text-link">Get to know me <span aria-hidden="true">→</span></a>
+            </div>
+            <div class="hero-meta"><span class="status-dot"></span> LEARNING · BUILDING · DOCUMENTING</div>
+          </div>
+
+          <div class="terminal-card parallax-layer" data-depth="0.08" aria-label="Profile terminal snapshot">
+            <div class="terminal-topbar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span>profile.sh</span>
+              <span class="terminal-live">● ONLINE</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line"><span class="terminal-prompt">$</span> whoami</p>
+              <p class="terminal-output">Kumar Nirav</p>
+              <p class="terminal-line"><span class="terminal-prompt">$</span> focus --areas</p>
+              <p class="terminal-output">Cybersecurity / OSINT<br>Security Analysis / Linux</p>
+              <p class="terminal-line"><span class="terminal-prompt">$</span> current_status</p>
+              <p class="terminal-output terminal-green">Learning. Building. Improving.</p>
+              <p class="terminal-line terminal-last"><span class="terminal-prompt">$</span> <span class="typing-cursor">_</span></p>
+            </div>
+            <div class="terminal-footer"><span>~/nirav</span><span>UTF-8</span><span> zsh</span></div>
+          </div>
+        </div>
+
+        <a class="scroll-hint" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+        <div class="hero-index" aria-hidden="true">01 / 05</div>
+      </header>
+
+      <section id="about" class="section about-section">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <p class="section-index">01 — PROFILE</p>
+            <h2>About <span class="accent">Me</span></h2>
+            <p class="section-aside">A curious mind, a terminal, and a lot to learn.</p>
+          </div>
+          <div class="about-copy reveal">
+            <p class="lead-copy">I’m a cybersecurity student interested in understanding how digital systems work, where they become vulnerable, and how they can be made more secure.</p>
+            <p>I’m building practical experience across Linux, networking, Python, OSINT, and security analysis. I enjoy learning by doing: writing small tools, examining logs, exploring security workflows, and turning concepts into projects that solve real problems.</p>
+            <p>My focus right now is strengthening my technical foundations, gaining hands-on experience through projects and CTFs, and learning from the wider cybersecurity community. I believe good security starts with curiosity, discipline, and responsible testing.</p>
+            <div class="about-attributes">
+              <span><i></i> Curious by default</span>
+              <span><i></i> Hands-on learner</span>
+              <span><i></i> Security-minded</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-index">02 — SELECTED WORK</p>
+            <h2>Projects<span class="accent">.</span></h2>
+            <p class="section-aside">Things I’ve built while learning to think like a defender.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-card-top"><span class="project-number">PROJECT_01</span><span class="project-state"><i></i> BUILT</span></div>
+              <div class="project-icon" aria-hidden="true">&gt;_</div>
+              <h3>Login Brute-Force<br>Log Analyzer</h3>
+              <p>A Python-based tool that examines authentication logs for repeated failed login attempts, highlighting potential brute-force activity and suspicious IP addresses.</p>
+              <div class="tags"><span>Python</span><span>Linux</span><span>Log Analysis</span></div>
+              <div class="project-bottom"><span>Repository link to be added</span><span aria-hidden="true">↗</span></div>
+            </article>
+
+            <article class="project-card project-card-featured reveal">
+              <div class="project-card-top"><span class="project-number">PROJECT_02</span><span class="project-state project-state-progress"><i></i> IN DEVELOPMENT</span></div>
+              <div class="project-icon project-icon-alt" aria-hidden="true">⌕</div>
+              <h3>Veri<span class="accent">Trace</span></h3>
+              <p>An OSINT-focused project exploring how publicly available information can be gathered and organized to build a clearer picture of an online presence. More details coming soon.</p>
+              <div class="tags"><span>OSINT</span><span>Public Information</span><span>Research</span></div>
+              <div class="project-bottom"><span>Project details coming soon</span><span aria-hidden="true">↗</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="skills-backdrop parallax-layer" data-depth="0.05" aria-hidden="true"></div>
+        <div class="container skills-content">
+          <div class="section-heading reveal">
+            <p class="section-index">03 — TOOLKIT</p>
+            <h2>Skills &amp; <span class="accent">Technologies</span></h2>
+            <p class="section-aside">A growing toolkit. Always a work in progress.</p>
+          </div>
+
+          <div class="skill-groups">
+            <article class="skill-group reveal">
+              <div class="skill-group-heading"><span class="skill-glyph">01</span><h3>Security Foundations</h3></div>
+              <div class="skill-list"><span>Cybersecurity Fundamentals</span><span>Linux &amp; Kali Linux</span><span>Networking</span><span>TCP/IP · DNS · HTTP/S</span><span>OSINT Fundamentals</span><span>Reconnaissance</span><span>Authentication Log Analysis</span><span>Web Security Fundamentals</span><span>Ethical Testing Principles</span></div>
+            </article>
+            <article class="skill-group reveal">
+              <div class="skill-group-heading"><span class="skill-glyph">02</span><h3>Programming &amp; Development</h3></div>
+              <div class="skill-list"><span>Python</span><span>C</span><span>C++</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>SQL Basics</span><span>Bash Basics</span></div>
+            </article>
+            <article class="skill-group reveal">
+              <div class="skill-group-heading"><span class="skill-glyph">03</span><h3>Tools &amp; Workflow</h3></div>
+              <div class="skill-list"><span>Git</span><span>GitHub</span><span>Command Line</span><span>macOS Terminal</span><span>Technical Research</span><span>Documentation</span><span>Problem Solving</span></div>
+            </article>
+          </div>
+
+          <div class="learning-track reveal">
+            <div><p class="learning-label">CURRENT LEARNING TRACK</p><p class="learning-copy">Continuously building proficiency in web application security, security tooling, and practical offensive and defensive workflows.</p></div>
+            <div class="learning-tags"><span>Nmap</span><span>Wireshark</span><span>Burp Suite</span><span>Flask</span><span>React</span><span>SIEM Concepts</span></div>
+          </div>
+          <p class="skills-note">Skills reflect my current foundations and learning journey, not claims of expert-level proficiency.</p>
+        </div>
+      </section>
+
+      <section id="hackathons" class="section hackathons-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="section-index">04 — FIELD EXPERIENCE</p>
+            <h2>Hackathons <span class="accent">&amp; CTFs</span></h2>
+            <p class="section-aside">Challenges, collaboration, and lessons from the field.</p>
+          </div>
+          <div class="empty-state reveal">
+            <span class="empty-bracket">[ ]</span>
+            <div><p class="empty-title">No entries yet</p><p class="empty-copy">This space is ready for future hackathons, CTF write-ups, placements, and team experiences.</p></div>
+            <span class="empty-status">AWAITING FIRST ENTRY</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="contact-orbit" aria-hidden="true"></div>
+        <div class="container contact-content reveal">
+          <p class="section-index">05 — OPEN CHANNEL</p>
+          <h2>Let’s <span class="accent">Connect</span></h2>
+          <p>Open to cybersecurity roles and opportunities.</p>
+          <!-- Replace the placeholder email address with your preferred contact email. -->
+          <a href="mailto:your-email@example.com?subject=Cybersecurity%20Opportunity" class="btn">Get in touch <span aria-hidden="true">↗</span></a>
+          <div class="contact-prompt"><span class="status-dot"></span> CONNECTIONS WELCOME</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
